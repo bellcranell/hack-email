@@ -16,7 +16,7 @@ O = '\033[33m'
 serv = None
 port = 587
 
-os.chdir('modules/')
+
 parser = argparse.ArgumentParser(description="Framework Hunner")
 parser.add_argument('login', help='Target email')
 parser.add_argument('password', help='Password list')
